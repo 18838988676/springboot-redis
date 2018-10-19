@@ -1,0 +1,1 @@
+启动项目。配置数据库  ：SpringbootRedisApplicationTests 运行junit即可

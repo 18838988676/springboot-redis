@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.com.wmc.dao.PrescriptionDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="PrescriptionVO" id="prescriptionMap">
+        <result property="id" column="id"/>
+        <result property="registerid" column="registerid"/>
+        <result property="prescriptioncode" column="prescriptioncode"/>
+        <result property="prescriptionname" column="prescriptionname"/>
+        <result property="doctorid" column="doctorid"/>
+        <result property="natureid" column="natureid"/>
+        <result property="prescriptiontypeid" column="prescriptiontypeid"/>
+        <result property="classifyid" column="classifyid"/>
+        <result property="note" column="note"/>
+        <result property="diagnosis" column="diagnosis"/>
+        <result property="prescriptiontime" column="prescriptiontime"/>
+        <result property="isvalid" column="isvalid"/>
+    </resultMap>
+
+
+	<select id="selectById" resultType="PrescriptionVO">
+		select * from prescription where id = #{value}
+	</select>
+
+	<select id="list" resultMap="prescriptionMap">
+		select * from prescription
+	</select>
+
+
+	
+ 	<select id="queryTotal" resultType="int">
+		select count(*) from prescription 
+	</select>
+	 
+	<insert id="insert" parameterType="PrescriptionVO" useGeneratedKeys="true" keyProperty="id">
+		insert into prescription
+		(
+			registerid, 
+			prescriptioncode, 
+			prescriptionname, 
+			doctorid, 
+			natureid, 
+			prescriptiontypeid, 
+			classifyid, 
+			note, 
+			diagnosis, 
+			prescriptiontime, 
+			isvalid
+		)
+		values
+		(
+			#{registerid}, 
+			#{prescriptioncode}, 
+			#{prescriptionname}, 
+			#{doctorid}, 
+			#{natureid}, 
+			#{prescriptiontypeid}, 
+			#{classifyid}, 
+			#{note}, 
+			#{diagnosis}, 
+			#{prescriptiontime}, 
+			#{isvalid}
+		)
+	</insert>
+	 
+	<update id="updateById" parameterType="PrescriptionVO">
+		update prescription 
+		<set>
+			<if test="registerid != null">registerid = #{registerid}, </if>
+			<if test="prescriptioncode != null">prescriptioncode = #{prescriptioncode}, </if>
+			<if test="prescriptionname != null">prescriptionname = #{prescriptionname}, </if>
+			<if test="doctorid != null">doctorid = #{doctorid}, </if>
+			<if test="natureid != null">natureid = #{natureid}, </if>
+			<if test="prescriptiontypeid != null">prescriptiontypeid = #{prescriptiontypeid}, </if>
+			<if test="classifyid != null">classifyid = #{classifyid}, </if>
+			<if test="note != null">note = #{note}, </if>
+			<if test="diagnosis != null">diagnosis = #{diagnosis}, </if>
+			<if test="prescriptiontime != null">prescriptiontime = #{prescriptiontime}, </if>
+			<if test="isvalid != null">isvalid = #{isvalid}</if>
+		</set>
+		where id = #{id}
+	</update>
+	
+	<delete id="deleteById">
+		delete from prescription where id = #{value}
+	</delete>
+	<!-- 
+	foreach属性详解
+collection
+该属性指定你要遍历的集合名称，然后在调用该方法的时候，通过参数的方式传递过来。
+定义了一个用来获取用户信息的方法，然后使用foreach元素来构建in子语句。这里使用了默认的array，因此可以传递一个数组给这个方法，如下：
+	List默认的名称为“list”。 数组（Array）的默认名称为“array”。如：       -->
+	<delete id="deleteByIds">
+		delete from prescription where id in 
+		<foreach item="zidingyi" collection="list" open="(" separator="," close=")">
+			#{zidingyi}
+		</foreach>
+	</delete>
+
+</mapper>
