@@ -3,6 +3,8 @@
 使用阿里：druid:
 进入：本地端口 server:    localhost:8088/druid
 
+1：计数器和缓存都坐哈了
+
 
 
 

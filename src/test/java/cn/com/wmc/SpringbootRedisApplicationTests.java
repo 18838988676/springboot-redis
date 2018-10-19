@@ -5,12 +5,14 @@ import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.support.atomic.RedisAtomicLong;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import cn.com.wmc.entity.PrescriptionVO;
@@ -26,10 +28,75 @@ public class SpringbootRedisApplicationTests {
 	    private RedisTemplate<Object,Object> redisTemplate;  
 	 
 	 
+	 
+	 
+	 
+	 
+	 //点击计数器
 	 @Test
-	public void testName() throws Exception {
-		System.out.println(redisTemplate);
+	public void testjishuqi() throws Exception {
+		 RedisAtomicLong redisAtomicLong = new RedisAtomicLong("cishu2", redisTemplate.getConnectionFactory());
+		 //初始化为1
+		// RedisAtomicLong redisAtomicLong = new RedisAtomicLong("cishu23", redisTemplate.getConnectionFactory(),9);
+	     //次数 
+		 Long increment = redisAtomicLong.getAndIncrement();
+	        System.out.println("已经点击次数："+increment);
+	        //获得内存中的值
+	        System.out.println("内存中值："+redisAtomicLong.get());
 	}
+	 
+	 //手机号3次数限制
+	 @Test
+	public void testxianzhi() throws Exception {
+		 RedisAtomicLong redisAtomicLong = new RedisAtomicLong("48838988676", redisTemplate.getConnectionFactory());
+		//次数   调用一次加一次
+		 Long increment = redisAtomicLong.getAndIncrement();
+		 if(redisAtomicLong.get()==3){
+			 System.out.println("次数已到");
+		 }
+		 else {
+			System.err.println("还有"+(3-redisAtomicLong.get())+"次机会");
+		}
+	}
+	 
+//手机号60秒内：3次数限制
+//	 第一步：先初始化  给定时间  
+	 @Test
+	public void testone() throws Exception {
+		 RedisAtomicLong redisAtomicLong = new RedisAtomicLong("18838988676", redisTemplate.getConnectionFactory());
+		 long liveTime=new Long(60);
+		 redisAtomicLong.expire(liveTime, TimeUnit.SECONDS);
+		 Long increment = redisAtomicLong.getAndIncrement();
+	}
+	 
+//第二步： 
+	 @Test
+	public void testxianzhi2() throws Exception {
+		 RedisAtomicLong redisAtomicLong = new RedisAtomicLong("18838988676", redisTemplate.getConnectionFactory());
+		 if (redisAtomicLong.get()!=0) {
+			if(redisAtomicLong.get()==3){
+				System.out.println("次数已到");
+			}else {
+				System.err.println("还有"+(3-redisAtomicLong.get())+"次机会");
+				//次数   调用一次加一次
+				Long increment = redisAtomicLong.getAndIncrement();
+			}
+		}else {
+			System.out.println("时间已到");
+		}
+	}
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
 	 
 	 //select
 	@Test
