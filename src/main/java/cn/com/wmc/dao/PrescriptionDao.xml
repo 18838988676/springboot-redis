@@ -2,7 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="cn.com.wmc.dao.PrescriptionDao">
-
+<!-- 开启基于redis的二级缓存 -->
+<cache type="cn.com.wmc.utils.RedisCache"/>
 	<!-- 可根据自己的需求，是否要使用 -->
     <resultMap type="PrescriptionVO" id="prescriptionMap">
         <result property="id" column="id"/>

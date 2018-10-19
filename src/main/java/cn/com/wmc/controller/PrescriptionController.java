@@ -1,5 +1,6 @@
 package cn.com.wmc.controller;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Arrays;
 import java.util.Map;
@@ -36,6 +37,29 @@ public class PrescriptionController {
     public String list(){
         return "index";
     }
+    
+    
+    @RequestMapping("/ttt")
+    public String adddd(){
+    	PrescriptionVO prescription=new PrescriptionVO();
+		prescription.setClassifyid(1);
+		prescription.setDiagnosis("  处fdadaf方诊断");
+		prescription.setDoctorid(1);
+		prescription.setIsvalid(1);
+		prescription.setNatureid(1);
+		prescription.setNote("  this is note");
+		prescription.setPrescriptioncode("  prescriptioncode");
+		prescription.setRegisterid(1);
+		prescription.setPrescriptionname("  setPrescriptionname");
+		prescription.setPrescriptiontypeid(1);
+		prescription.setPrescriptiontime(new Date());
+		prescriptionServiceImpl.insert(prescription);
+    	
+        return "index";
+    }
+    
+    
+    
     
     
     /**

@@ -10,6 +10,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import cn.com.wmc.entity.PrescriptionVO;
@@ -21,13 +22,19 @@ public class SpringbootRedisApplicationTests {
 	
 	 @Autowired
 	    private PrescriptionServiceImpl prescriptionServiceImpl;
-
+	 @Autowired  // RedisTemplate，可以进行所有的操作
+	    private RedisTemplate<Object,Object> redisTemplate;  
 	 
+	 
+	 @Test
+	public void testName() throws Exception {
+		System.out.println(redisTemplate);
+	}
 	 
 	 //select
 	@Test
 	public void testselectId() {
-		PrescriptionVO prescription = prescriptionServiceImpl.selectById(40);
+		PrescriptionVO prescription = prescriptionServiceImpl.selectById(14);
 		System.out.println(prescription);
 	}
 	
@@ -64,14 +71,14 @@ public class SpringbootRedisApplicationTests {
 	public void testadd() throws Exception {
 		PrescriptionVO prescription=new PrescriptionVO();
 		prescription.setClassifyid(1);
-		prescription.setDiagnosis("处方诊断");
+		prescription.setDiagnosis("  处方诊断");
 		prescription.setDoctorid(1);
 		prescription.setIsvalid(1);
 		prescription.setNatureid(1);
-		prescription.setNote("this is note");
-		prescription.setPrescriptioncode("prescriptioncode");
+		prescription.setNote("  this is note");
+		prescription.setPrescriptioncode("  prescriptioncode");
 		prescription.setRegisterid(1);
-		prescription.setPrescriptionname("setPrescriptionname");
+		prescription.setPrescriptionname("  setPrescriptionname");
 		prescription.setPrescriptiontypeid(1);
 		prescription.setPrescriptiontime(new Date());
 		prescriptionServiceImpl.insert(prescription);
