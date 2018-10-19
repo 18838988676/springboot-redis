@@ -1,1 +1,49 @@
 启动项目。配置数据库  ：SpringbootRedisApplicationTests 运行junit即可
+
+使用阿里：druid:
+进入：本地端口 server:    localhost:8088/druid
+
+第一步：
+# 初始化大小，最小，最大
+spring.datasource.druid.initial-size=1
+spring.datasource.druid.min-idle=1
+spring.datasource.druid.max-active=20
+# 配置获取连接等待超时的时间
+spring.datasource.druid.max-wait=60000
+# 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+spring.datasource.druid.time-between-eviction-runs-millis=60000
+# 配置一个连接在池中最小生存的时间，单位是毫秒
+spring.datasource.druid.min-evictable-idle-time-millis=300000
+spring.datasource.druid.validation-query=SELECT 1 FROM DUAL
+spring.datasource.druid.test-while-idle=true
+spring.datasource.druid.test-on-borrow=false
+spring.datasource.druid.test-on-return=false
+# 打开PSCache，并且指定每个连接上PSCache的大小
+spring.datasource.druid.pool-prepared-statements=true
+spring.datasource.druid.max-pool-prepared-statement-per-connection-size=20
+# 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+spring.datasource.druid.filters=stat,wall
+# 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+
+第二部：
+<dependency>
+	<groupId>com.alibaba</groupId>
+	<artifactId>druid-spring-boot-starter</artifactId>
+	<version>1.1.9</version>
+</dependency>
+
+spring boot Logging的配置以及使用详解  https://www.jb51.net/article/133795.htm
+
+
+自定义日志输出格式
+logging.pattern.console=%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n  
+logging.pattern.file=%d{yyyy/MM/dd-HH:mm} [%thread] %-5level %logger- %msg%n 
+
+
+
+
+
+
+
+
+
