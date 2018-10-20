@@ -1,17 +1,22 @@
 package cn.com.wmc;
 
-import static org.junit.Assert.*;
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.connection.RedisZSetCommands.Range;
+import org.springframework.data.redis.core.ListOperations;
+import org.springframework.data.redis.core.RedisOperations;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.SetOperations;
+import org.springframework.data.redis.core.ZSetOperations;
+import org.springframework.data.redis.core.ZSetOperations.TypedTuple;
 import org.springframework.data.redis.support.atomic.RedisAtomicLong;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -30,8 +35,34 @@ public class SpringbootRedisApplicationTests {
 	 
 	 
 	 
+	 //最新列表
+	 @Test
+	 public void testList() throws Exception {
+		 ListOperations<Object, Object> 	list=	redisTemplate.opsForList();
+		 list.leftPush("news1", "z");
+		 list.leftPush("news1", "2x");
+		 list.leftPush("news1", "v3");
+		 list.leftPush("news1", "kkk4");
+		 List<Object> listsss=  redisTemplate.opsForList().range("news1",0,-1);  
+		 for (Object object : listsss) {
+			System.out.println(object);
+		}
+	}
 	 
+	 //排行榜从高到底排序，热搜榜，热搜词
+	 @Test
+	public void testPaihang() throws Exception {
+	     ZSetOperations<Object, Object> zSetOperations = redisTemplate.opsForZSet();
+	     int infoId=1;
+	     zSetOperations.add("book", "wmc1", 48);
+	     zSetOperations.add("book", "wmc2", 53);
+	     zSetOperations.add("book", "wmc4", 35);
+	     zSetOperations.add("book", "wmc6", 99);
+	      Set<Object> ss2= zSetOperations.reverseRange("book", 0, -1);
+	      System.out.println(ss2);
+	}
 	 
+/*================================计数器===============================================================	 */
 	 //点击计数器
 	 @Test
 	public void testjishuqi() throws Exception {
