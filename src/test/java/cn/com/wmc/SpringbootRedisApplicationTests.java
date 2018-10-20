@@ -33,7 +33,7 @@ public class SpringbootRedisApplicationTests {
 	    private RedisTemplate<Object,Object> redisTemplate;  
 	 
 	 
-	 
+	   
 	 
 	 //最新列表
 	 @Test
