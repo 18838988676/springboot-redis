@@ -132,7 +132,7 @@ public class SpringbootRedisApplicationTests {
 	 //select
 	@Test
 	public void testselectId() {
-		PrescriptionVO prescription = prescriptionServiceImpl.selectById(14);
+		PrescriptionVO prescription = prescriptionServiceImpl.selectById(16);
 		System.out.println(prescription);
 	}
 	

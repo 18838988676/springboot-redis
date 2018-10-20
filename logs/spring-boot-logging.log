@@ -2499,4 +2499,1001 @@
  2018/10/20-14:30 [main] INFO  io.lettuce.core.KqueueProvider- Starting without optional kqueue library
  2018/10/20-14:30 [Thread-3] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Closing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 14:30:33 CST 2018]; root of context hierarchy
  2018/10/20-14:30 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} closed
+ 2018/10/20-19:29 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Starting SpringbootRedisApplicationTests on cec-PC with PID 35800 (started by cec in D:\eclipsework\springboot-redis)
+ 2018/10/20-19:29 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- No active profile set, falling back to default profiles: default
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:29:04 CST 2018]; root of context hierarchy
+ 2018/10/20-19:29 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2018/10/20-19:29 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5222a124] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018/10/20-19:29 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure- Init DruidDataSource
+ 2018/10/20-19:29 [main] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:29:04 CST 2018]; root of context hierarchy
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/update]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.update(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/delete]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.delete(java.lang.Integer)
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/list]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/index]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list()
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/save]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.save(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/info]}" onto public cn.com.wmc.entity.PrescriptionVO cn.com.wmc.controller.PrescriptionController.info(java.lang.Integer)
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/ttt]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.adddd()
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/deletes]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.deletes(java.lang.Integer[])
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:29 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:29 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page template: index
+ 2018/10/20-19:29 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService
+ 2018/10/20-19:29 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Started SpringbootRedisApplicationTests in 14.146 seconds (JVM running for 16.888)
+ 2018/10/20-19:29 [main] INFO  io.lettuce.core.EpollProvider- Starting without optional epoll library
+ 2018/10/20-19:29 [main] INFO  io.lettuce.core.KqueueProvider- Starting without optional kqueue library
+ 2018/10/20-19:29 [main] ERROR cn.com.wmc.utils.RedisCache- Redis get failed, fail over to db
+ org.springframework.data.redis.RedisSystemException: Redis exception; nested exception is io.lettuce.core.RedisException: Cannot retrieve initial cluster partitions from initial URIs [RedisURI [host='127.0.0.1', port=6380], RedisURI [host='127.0.0.1', port=6381], RedisURI [host='127.0.0.1', port=6382]]
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:74)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:257)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.convertLettuceAccessException(LettuceStringCommands.java:718)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.get(LettuceStringCommands.java:63)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.get(DefaultedRedisConnection.java:210)
+	at org.springframework.data.redis.core.DefaultValueOperations$1.inRedis(DefaultValueOperations.java:52)
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:59)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:224)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:48)
+	at cn.com.wmc.utils.RedisCache.getObject(RedisCache.java:68)
+	at org.apache.ibatis.cache.decorators.LoggingCache.getObject(LoggingCache.java:57)
+	at org.apache.ibatis.cache.decorators.TransactionalCache.getObject(TransactionalCache.java:68)
+	at org.apache.ibatis.cache.TransactionalCacheManager.getObject(TransactionalCacheManager.java:35)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:101)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy68.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:82)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy70.selectById(Unknown Source)
+	at cn.com.wmc.service.impl.PrescriptionServiceImpl.selectById(PrescriptionServiceImpl.java:30)
+	at cn.com.wmc.SpringbootRedisApplicationTests.testselectId(SpringbootRedisApplicationTests.java:135)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: io.lettuce.core.RedisException: Cannot retrieve initial cluster partitions from initial URIs [RedisURI [host='127.0.0.1', port=6380], RedisURI [host='127.0.0.1', port=6381], RedisURI [host='127.0.0.1', port=6382]]
+	at io.lettuce.core.cluster.RedisClusterClient.loadPartitions(RedisClusterClient.java:790)
+	at io.lettuce.core.cluster.RedisClusterClient.initializePartitions(RedisClusterClient.java:761)
+	at io.lettuce.core.cluster.RedisClusterClient.connectClusterImpl(RedisClusterClient.java:500)
+	at io.lettuce.core.cluster.RedisClusterClient.connect(RedisClusterClient.java:339)
+	at org.springframework.data.redis.connection.lettuce.ClusterConnectionProvider.getConnection(ClusterConnectionProvider.java:55)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.doGetAsyncDedicatedConnection(LettuceConnection.java:962)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.getDedicatedConnection(LettuceConnection.java:942)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.getConnection(LettuceConnection.java:903)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.getConnection(LettuceStringCommands.java:714)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.get(LettuceStringCommands.java:61)
+	... 59 common frames omitted
+2018/10/20-19:29 [main] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.0
+ 2018/10/20-19:29 [main] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==>  Preparing: select * from prescription where id = ? 
+ 2018/10/20-19:29 [main] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==> Parameters: 14(Integer)
+ 2018/10/20-19:29 [main] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- <==      Total: 1
+ 2018/10/20-19:29 [main] ERROR cn.com.wmc.utils.RedisCache- Redis put failed
+ org.springframework.data.redis.RedisSystemException: Redis exception; nested exception is io.lettuce.core.RedisException: Cannot retrieve initial cluster partitions from initial URIs [RedisURI [host='127.0.0.1', port=6380], RedisURI [host='127.0.0.1', port=6381], RedisURI [host='127.0.0.1', port=6382]]
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:74)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:257)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.convertLettuceAccessException(LettuceStringCommands.java:718)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.setEx(LettuceStringCommands.java:227)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.setEx(DefaultedRedisConnection.java:252)
+	at org.springframework.data.redis.core.DefaultValueOperations$4.potentiallyUsePsetEx(DefaultValueOperations.java:230)
+	at org.springframework.data.redis.core.DefaultValueOperations$4.doInRedis(DefaultValueOperations.java:223)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:224)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
+	at org.springframework.data.redis.core.DefaultValueOperations.set(DefaultValueOperations.java:218)
+	at cn.com.wmc.utils.RedisCache.putObject(RedisCache.java:48)
+	at org.apache.ibatis.cache.decorators.LoggingCache.putObject(LoggingCache.java:51)
+	at org.apache.ibatis.cache.decorators.TransactionalCache.flushPendingEntries(TransactionalCache.java:122)
+	at org.apache.ibatis.cache.decorators.TransactionalCache.commit(TransactionalCache.java:105)
+	at org.apache.ibatis.cache.TransactionalCacheManager.commit(TransactionalCacheManager.java:44)
+	at org.apache.ibatis.executor.CachingExecutor.commit(CachingExecutor.java:120)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.commit(DefaultSqlSession.java:224)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:437)
+	at com.sun.proxy.$Proxy68.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:82)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy70.selectById(Unknown Source)
+	at cn.com.wmc.service.impl.PrescriptionServiceImpl.selectById(PrescriptionServiceImpl.java:30)
+	at cn.com.wmc.SpringbootRedisApplicationTests.testselectId(SpringbootRedisApplicationTests.java:135)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: io.lettuce.core.RedisException: Cannot retrieve initial cluster partitions from initial URIs [RedisURI [host='127.0.0.1', port=6380], RedisURI [host='127.0.0.1', port=6381], RedisURI [host='127.0.0.1', port=6382]]
+	at io.lettuce.core.cluster.RedisClusterClient.loadPartitions(RedisClusterClient.java:790)
+	at io.lettuce.core.cluster.RedisClusterClient.initializePartitions(RedisClusterClient.java:761)
+	at io.lettuce.core.cluster.RedisClusterClient.connectClusterImpl(RedisClusterClient.java:500)
+	at io.lettuce.core.cluster.RedisClusterClient.connect(RedisClusterClient.java:339)
+	at org.springframework.data.redis.connection.lettuce.ClusterConnectionProvider.getConnection(ClusterConnectionProvider.java:55)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.doGetAsyncDedicatedConnection(LettuceConnection.java:962)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.getDedicatedConnection(LettuceConnection.java:942)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.getConnection(LettuceConnection.java:903)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.getConnection(LettuceStringCommands.java:714)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.setEx(LettuceStringCommands.java:225)
+	... 53 common frames omitted
+2018/10/20-19:29 [Thread-3] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Closing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:29:04 CST 2018]; root of context hierarchy
+ 2018/10/20-19:29 [Thread-3] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService
+ 2018/10/20-19:29 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} closed
+ 2018/10/20-19:35 [restartedMain] INFO  cn.com.wmc.SpringbootRedisApplication- Starting SpringbootRedisApplication on cec-PC with PID 28544 (D:\eclipsework\springboot-redis\target\classes started by cec in D:\eclipsework\springboot-redis)
+ 2018/10/20-19:35 [restartedMain] INFO  cn.com.wmc.SpringbootRedisApplication- No active profile set, falling back to default profiles: default
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@793b9b52: startup date [Sat Oct 20 19:35:34 CST 2018]; root of context hierarchy
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6ef84fa9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8088 (http)
+ 2018/10/20-19:35 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+ 2018/10/20-19:35 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.34
+ 2018/10/20-19:35 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/asolr/jdk1.8.0_171/jre/bin/server;C:/asolr/jdk1.8.0_171/jre/bin;C:/asolr/jdk1.8.0_171/jre/lib/amd64;D:\AmongoDB\Program Files\MongoDB\Server\3.4\bin;C:\asolr\jdk1.8.0_171\jre\bin;C:\asolr\jdk1.8.0_171\bin;C:\mycat\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\agit\cmd;;C:\eclipse-jee-luna\eclipse-jee-luna;;.]
+ 2018/10/20-19:35 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2018/10/20-19:35 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+ 2018/10/20-19:35 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 8781 ms
+ 2018/10/20-19:35 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Servlet dispatcherServlet mapped to [/]
+ 2018/10/20-19:35 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Servlet statViewServlet mapped to [/druid/*]
+ 2018/10/20-19:35 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018/10/20-19:35 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018/10/20-19:35 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018/10/20-19:35 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'requestContextFilter' to: [/*]
+ 2018/10/20-19:35 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'webStatFilter' to urls: [/*]
+ 2018/10/20-19:35 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure- Init DruidDataSource
+ 2018/10/20-19:35 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@793b9b52: startup date [Sat Oct 20 19:35:34 CST 2018]; root of context hierarchy
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/update]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.update(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/delete]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.delete(java.lang.Integer)
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/list]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/index]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list()
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/save]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.save(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/info]}" onto public cn.com.wmc.entity.PrescriptionVO cn.com.wmc.controller.PrescriptionController.info(java.lang.Integer)
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/ttt]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.adddd()
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/deletes]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.deletes(java.lang.Integer[])
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page template: index
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Registering beans for JMX exposure on startup
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'statFilter' has been autodetected for JMX exposure
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'dataSource' has been autodetected for JMX exposure
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+ 2018/10/20-19:35 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8088 (http) with context path ''
+ 2018/10/20-19:35 [restartedMain] INFO  cn.com.wmc.SpringbootRedisApplication- Started SpringbootRedisApplication in 17.723 seconds (JVM running for 19.104)
+ 2018/10/20-19:36 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring FrameworkServlet 'dispatcherServlet'
+ 2018/10/20-19:36 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- FrameworkServlet 'dispatcherServlet': initialization started
+ 2018/10/20-19:36 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- FrameworkServlet 'dispatcherServlet': initialization completed in 104 ms
+ 2018/10/20-19:36 [http-nio-8088-exec-1] INFO  io.lettuce.core.EpollProvider- Starting without optional epoll library
+ 2018/10/20-19:36 [http-nio-8088-exec-1] INFO  io.lettuce.core.KqueueProvider- Starting without optional kqueue library
+ 2018/10/20-19:36 [http-nio-8088-exec-1] ERROR cn.com.wmc.utils.RedisCache- Redis get failed, fail over to db
+ org.springframework.data.redis.RedisSystemException: Redis exception; nested exception is io.lettuce.core.RedisException: Cannot retrieve initial cluster partitions from initial URIs [RedisURI [host='127.0.0.1', port=6380], RedisURI [host='127.0.0.1', port=6381], RedisURI [host='127.0.0.1', port=6382]]
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:74)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:257)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.convertLettuceAccessException(LettuceStringCommands.java:718)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.get(LettuceStringCommands.java:63)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.get(DefaultedRedisConnection.java:210)
+	at org.springframework.data.redis.core.DefaultValueOperations$1.inRedis(DefaultValueOperations.java:52)
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:59)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:224)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:48)
+	at cn.com.wmc.utils.RedisCache.getObject(RedisCache.java:68)
+	at org.apache.ibatis.cache.decorators.LoggingCache.getObject(LoggingCache.java:57)
+	at org.apache.ibatis.cache.decorators.TransactionalCache.getObject(TransactionalCache.java:68)
+	at org.apache.ibatis.cache.TransactionalCacheManager.getObject(TransactionalCacheManager.java:35)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:101)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy62.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:82)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy64.selectById(Unknown Source)
+	at cn.com.wmc.service.impl.PrescriptionServiceImpl.selectById(PrescriptionServiceImpl.java:30)
+	at cn.com.wmc.controller.PrescriptionController.info(PrescriptionController.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.lettuce.core.RedisException: Cannot retrieve initial cluster partitions from initial URIs [RedisURI [host='127.0.0.1', port=6380], RedisURI [host='127.0.0.1', port=6381], RedisURI [host='127.0.0.1', port=6382]]
+	at io.lettuce.core.cluster.RedisClusterClient.loadPartitions(RedisClusterClient.java:790)
+	at io.lettuce.core.cluster.RedisClusterClient.initializePartitions(RedisClusterClient.java:761)
+	at io.lettuce.core.cluster.RedisClusterClient.connectClusterImpl(RedisClusterClient.java:500)
+	at io.lettuce.core.cluster.RedisClusterClient.connect(RedisClusterClient.java:339)
+	at org.springframework.data.redis.connection.lettuce.ClusterConnectionProvider.getConnection(ClusterConnectionProvider.java:55)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.doGetAsyncDedicatedConnection(LettuceConnection.java:962)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.getDedicatedConnection(LettuceConnection.java:942)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.getConnection(LettuceConnection.java:903)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.getConnection(LettuceStringCommands.java:714)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.get(LettuceStringCommands.java:61)
+	... 85 common frames omitted
+2018/10/20-19:36 [http-nio-8088-exec-1] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.0
+ 2018/10/20-19:36 [http-nio-8088-exec-1] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==>  Preparing: select * from prescription where id = ? 
+ 2018/10/20-19:36 [http-nio-8088-exec-1] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==> Parameters: 6(Integer)
+ 2018/10/20-19:36 [http-nio-8088-exec-1] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- <==      Total: 0
+ 2018/10/20-19:36 [http-nio-8088-exec-1] WARN  io.lettuce.core.cluster.RedisClusterClient- Command timed out
+ 2018/10/20-19:36 [http-nio-8088-exec-1] WARN  io.lettuce.core.cluster.RedisClusterClient- Command timed out
+ 2018/10/20-19:36 [http-nio-8088-exec-1] WARN  io.lettuce.core.cluster.RedisClusterClient- Command timed out
+ 2018/10/20-19:36 [http-nio-8088-exec-1] ERROR cn.com.wmc.utils.RedisCache- Redis put failed
+ org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: Command timed out
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:70)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:257)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.convertLettuceAccessException(LettuceStringCommands.java:718)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.setEx(LettuceStringCommands.java:227)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.setEx(DefaultedRedisConnection.java:252)
+	at org.springframework.data.redis.core.DefaultValueOperations$4.potentiallyUsePsetEx(DefaultValueOperations.java:230)
+	at org.springframework.data.redis.core.DefaultValueOperations$4.doInRedis(DefaultValueOperations.java:223)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:224)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
+	at org.springframework.data.redis.core.DefaultValueOperations.set(DefaultValueOperations.java:218)
+	at cn.com.wmc.utils.RedisCache.putObject(RedisCache.java:48)
+	at org.apache.ibatis.cache.decorators.LoggingCache.putObject(LoggingCache.java:51)
+	at org.apache.ibatis.cache.decorators.TransactionalCache.flushPendingEntries(TransactionalCache.java:122)
+	at org.apache.ibatis.cache.decorators.TransactionalCache.commit(TransactionalCache.java:105)
+	at org.apache.ibatis.cache.TransactionalCacheManager.commit(TransactionalCacheManager.java:44)
+	at org.apache.ibatis.executor.CachingExecutor.commit(CachingExecutor.java:120)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.commit(DefaultSqlSession.java:224)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:437)
+	at com.sun.proxy.$Proxy62.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:82)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy64.selectById(Unknown Source)
+	at cn.com.wmc.service.impl.PrescriptionServiceImpl.selectById(PrescriptionServiceImpl.java:30)
+	at cn.com.wmc.controller.PrescriptionController.info(PrescriptionController.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.lettuce.core.RedisCommandTimeoutException: Command timed out
+	at io.lettuce.core.LettuceFutures.awaitOrCancel(LettuceFutures.java:114)
+	at io.lettuce.core.cluster.ClusterFutureSyncInvocationHandler.handleInvocation(ClusterFutureSyncInvocationHandler.java:118)
+	at io.lettuce.core.internal.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:80)
+	at com.sun.proxy.$Proxy84.command(Unknown Source)
+	at io.lettuce.core.cluster.StatefulRedisClusterConnectionImpl.inspectRedisState(StatefulRedisClusterConnectionImpl.java:115)
+	at io.lettuce.core.cluster.RedisClusterClient.connectClusterImpl(RedisClusterClient.java:532)
+	at io.lettuce.core.cluster.RedisClusterClient.connect(RedisClusterClient.java:339)
+	at org.springframework.data.redis.connection.lettuce.ClusterConnectionProvider.getConnection(ClusterConnectionProvider.java:55)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.doGetAsyncDedicatedConnection(LettuceConnection.java:962)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.getDedicatedConnection(LettuceConnection.java:942)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.getConnection(LettuceConnection.java:903)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.getConnection(LettuceStringCommands.java:714)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.setEx(LettuceStringCommands.java:225)
+	... 79 common frames omitted
+2018/10/20-19:37 [Thread-6] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@793b9b52: startup date [Sat Oct 20 19:35:34 CST 2018]; root of context hierarchy
+ 2018/10/20-19:37 [Thread-6] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService
+ 2018/10/20-19:37 [Thread-6] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Unregistering JMX-exposed beans on shutdown
+ 2018/10/20-19:37 [Thread-6] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Unregistering JMX-exposed beans
+ 2018/10/20-19:37 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} closed
+ 2018/10/20-19:37 [restartedMain] INFO  cn.com.wmc.SpringbootRedisApplication- Starting SpringbootRedisApplication on cec-PC with PID 28544 (D:\eclipsework\springboot-redis\target\classes started by cec in D:\eclipsework\springboot-redis)
+ 2018/10/20-19:37 [restartedMain] INFO  cn.com.wmc.SpringbootRedisApplication- No active profile set, falling back to default profiles: default
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7c244d98: startup date [Sat Oct 20 19:37:08 CST 2018]; root of context hierarchy
+ 2018/10/20-19:37 [restartedMain] INFO  cn.com.wmc.SpringbootRedisApplication- Starting SpringbootRedisApplication on cec-PC with PID 35864 (D:\eclipsework\springboot-redis\target\classes started by cec in D:\eclipsework\springboot-redis)
+ 2018/10/20-19:37 [restartedMain] INFO  cn.com.wmc.SpringbootRedisApplication- No active profile set, falling back to default profiles: default
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@53792126: startup date [Sat Oct 20 19:37:19 CST 2018]; root of context hierarchy
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d2785008] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8088 (http)
+ 2018/10/20-19:37 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+ 2018/10/20-19:37 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.34
+ 2018/10/20-19:37 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/asolr/jdk1.8.0_171/jre/bin/server;C:/asolr/jdk1.8.0_171/jre/bin;C:/asolr/jdk1.8.0_171/jre/lib/amd64;D:\AmongoDB\Program Files\MongoDB\Server\3.4\bin;C:\asolr\jdk1.8.0_171\jre\bin;C:\asolr\jdk1.8.0_171\bin;C:\mycat\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\agit\cmd;;C:\eclipse-jee-luna\eclipse-jee-luna;;.]
+ 2018/10/20-19:37 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2018/10/20-19:37 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+ 2018/10/20-19:37 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 7572 ms
+ 2018/10/20-19:37 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Servlet dispatcherServlet mapped to [/]
+ 2018/10/20-19:37 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Servlet statViewServlet mapped to [/druid/*]
+ 2018/10/20-19:37 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018/10/20-19:37 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018/10/20-19:37 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018/10/20-19:37 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'requestContextFilter' to: [/*]
+ 2018/10/20-19:37 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'webStatFilter' to urls: [/*]
+ 2018/10/20-19:37 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure- Init DruidDataSource
+ 2018/10/20-19:37 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@53792126: startup date [Sat Oct 20 19:37:19 CST 2018]; root of context hierarchy
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/update]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.update(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/delete]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.delete(java.lang.Integer)
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/list]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/index]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list()
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/save]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.save(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/info]}" onto public cn.com.wmc.entity.PrescriptionVO cn.com.wmc.controller.PrescriptionController.info(java.lang.Integer)
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/ttt]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.adddd()
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/deletes]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.deletes(java.lang.Integer[])
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page template: index
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Registering beans for JMX exposure on startup
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'statFilter' has been autodetected for JMX exposure
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'dataSource' has been autodetected for JMX exposure
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+ 2018/10/20-19:37 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8088 (http) with context path ''
+ 2018/10/20-19:37 [restartedMain] INFO  cn.com.wmc.SpringbootRedisApplication- Started SpringbootRedisApplication in 16.11 seconds (JVM running for 17.559)
+ 2018/10/20-19:37 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring FrameworkServlet 'dispatcherServlet'
+ 2018/10/20-19:37 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- FrameworkServlet 'dispatcherServlet': initialization started
+ 2018/10/20-19:37 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- FrameworkServlet 'dispatcherServlet': initialization completed in 154 ms
+ 2018/10/20-19:37 [http-nio-8088-exec-1] INFO  io.lettuce.core.EpollProvider- Starting without optional epoll library
+ 2018/10/20-19:37 [http-nio-8088-exec-1] INFO  io.lettuce.core.KqueueProvider- Starting without optional kqueue library
+ 2018/10/20-19:37 [http-nio-8088-exec-1] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.0
+ 2018/10/20-19:37 [http-nio-8088-exec-1] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==>  Preparing: select * from prescription where id = ? 
+ 2018/10/20-19:37 [http-nio-8088-exec-1] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==> Parameters: 6(Integer)
+ 2018/10/20-19:37 [http-nio-8088-exec-1] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- <==      Total: 0
+ 2018/10/20-19:38 [http-nio-8088-exec-3] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.5
+ 2018/10/20-19:38 [Thread-6] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@53792126: startup date [Sat Oct 20 19:37:19 CST 2018]; root of context hierarchy
+ 2018/10/20-19:38 [Thread-6] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService
+ 2018/10/20-19:38 [Thread-6] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Unregistering JMX-exposed beans on shutdown
+ 2018/10/20-19:38 [Thread-6] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Unregistering JMX-exposed beans
+ 2018/10/20-19:38 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} closed
+ 2018/10/20-19:38 [restartedMain] INFO  cn.com.wmc.SpringbootRedisApplication- Starting SpringbootRedisApplication on cec-PC with PID 35864 (D:\eclipsework\springboot-redis\target\classes started by cec in D:\eclipsework\springboot-redis)
+ 2018/10/20-19:38 [restartedMain] INFO  cn.com.wmc.SpringbootRedisApplication- No active profile set, falling back to default profiles: default
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4bb64db2: startup date [Sat Oct 20 19:38:31 CST 2018]; root of context hierarchy
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d2785008] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8088 (http)
+ 2018/10/20-19:38 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+ 2018/10/20-19:38 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.34
+ 2018/10/20-19:38 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ 2018/10/20-19:38 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+ 2018/10/20-19:38 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 1933 ms
+ 2018/10/20-19:38 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Servlet dispatcherServlet mapped to [/]
+ 2018/10/20-19:38 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Servlet statViewServlet mapped to [/druid/*]
+ 2018/10/20-19:38 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018/10/20-19:38 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018/10/20-19:38 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018/10/20-19:38 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'requestContextFilter' to: [/*]
+ 2018/10/20-19:38 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'webStatFilter' to urls: [/*]
+ 2018/10/20-19:38 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure- Init DruidDataSource
+ 2018/10/20-19:38 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-2} inited
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4bb64db2: startup date [Sat Oct 20 19:38:31 CST 2018]; root of context hierarchy
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/update]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.update(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/delete]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.delete(java.lang.Integer)
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/list]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/index]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list()
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/save]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.save(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/info]}" onto public cn.com.wmc.entity.PrescriptionVO cn.com.wmc.controller.PrescriptionController.info(java.lang.Integer)
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/ttt]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.adddd()
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/deletes]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.deletes(java.lang.Integer[])
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page template: index
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Registering beans for JMX exposure on startup
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'statFilter' has been autodetected for JMX exposure
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Bean with name 'dataSource' has been autodetected for JMX exposure
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8088 (http) with context path ''
+ 2018/10/20-19:38 [restartedMain] INFO  cn.com.wmc.SpringbootRedisApplication- Started SpringbootRedisApplication in 3.484 seconds (JVM running for 78.526)
+ 2018/10/20-19:38 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+ 2018/10/20-19:38 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring FrameworkServlet 'dispatcherServlet'
+ 2018/10/20-19:38 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- FrameworkServlet 'dispatcherServlet': initialization started
+ 2018/10/20-19:38 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+ 2018/10/20-19:38 [http-nio-8088-exec-1] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.0
+ 2018/10/20-19:38 [http-nio-8088-exec-1] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==>  Preparing: select * from prescription where id = ? 
+ 2018/10/20-19:38 [http-nio-8088-exec-1] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==> Parameters: 13(Integer)
+ 2018/10/20-19:38 [http-nio-8088-exec-1] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- <==      Total: 1
+ 2018/10/20-19:38 [http-nio-8088-exec-3] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.5
+ 2018/10/20-19:39 [http-nio-8088-exec-4] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.6666666666666666
+ 2018/10/20-19:39 [http-nio-8088-exec-8] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.5
+ 2018/10/20-19:39 [http-nio-8088-exec-8] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==>  Preparing: select * from prescription where id = ? 
+ 2018/10/20-19:39 [http-nio-8088-exec-8] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==> Parameters: 14(Integer)
+ 2018/10/20-19:39 [http-nio-8088-exec-8] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- <==      Total: 1
+ 2018/10/20-19:39 [http-nio-8088-exec-7] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.6
+ 2018/10/20-19:40 [http-nio-8088-exec-9] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.6666666666666666
+ 2018/10/20-19:40 [http-nio-8088-exec-10] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.7142857142857143
+ 2018/10/20-19:40 [http-nio-8088-exec-6] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.75
+ 2018/10/20-19:45 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Starting SpringbootRedisApplicationTests on cec-PC with PID 37600 (started by cec in D:\eclipsework\springboot-redis)
+ 2018/10/20-19:45 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- No active profile set, falling back to default profiles: default
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:45:33 CST 2018]; root of context hierarchy
+ 2018/10/20-19:45 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2018/10/20-19:45 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$85b125e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018/10/20-19:45 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure- Init DruidDataSource
+ 2018/10/20-19:45 [main] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:45:33 CST 2018]; root of context hierarchy
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/update]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.update(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/delete]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.delete(java.lang.Integer)
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/list]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/index]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list()
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/save]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.save(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/info]}" onto public cn.com.wmc.entity.PrescriptionVO cn.com.wmc.controller.PrescriptionController.info(java.lang.Integer)
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/ttt]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.adddd()
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/deletes]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.deletes(java.lang.Integer[])
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:45 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:45 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page template: index
+ 2018/10/20-19:45 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService
+ 2018/10/20-19:45 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Started SpringbootRedisApplicationTests in 13.541 seconds (JVM running for 16.106)
+ 2018/10/20-19:45 [main] INFO  io.lettuce.core.EpollProvider- Starting without optional epoll library
+ 2018/10/20-19:45 [main] INFO  io.lettuce.core.KqueueProvider- Starting without optional kqueue library
+ 2018/10/20-19:45 [main] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 1.0
+ 2018/10/20-19:45 [Thread-3] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Closing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:45:33 CST 2018]; root of context hierarchy
+ 2018/10/20-19:45 [Thread-3] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService
+ 2018/10/20-19:45 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} closed
+ 2018/10/20-19:46 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Starting SpringbootRedisApplicationTests on cec-PC with PID 36912 (started by cec in D:\eclipsework\springboot-redis)
+ 2018/10/20-19:46 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- No active profile set, falling back to default profiles: default
+ 2018/10/20-19:46 [main] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:46:59 CST 2018]; root of context hierarchy
+ 2018/10/20-19:47 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2018/10/20-19:47 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ce65c097] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018/10/20-19:47 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure- Init DruidDataSource
+ 2018/10/20-19:47 [main] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:46:59 CST 2018]; root of context hierarchy
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/update]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.update(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/delete]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.delete(java.lang.Integer)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/list]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/index]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list()
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/save]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.save(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/info]}" onto public cn.com.wmc.entity.PrescriptionVO cn.com.wmc.controller.PrescriptionController.info(java.lang.Integer)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/ttt]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.adddd()
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/deletes]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.deletes(java.lang.Integer[])
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:47 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page template: index
+ 2018/10/20-19:47 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService
+ 2018/10/20-19:47 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Started SpringbootRedisApplicationTests in 13.338 seconds (JVM running for 15.865)
+ 2018/10/20-19:47 [main] INFO  io.lettuce.core.EpollProvider- Starting without optional epoll library
+ 2018/10/20-19:47 [main] INFO  io.lettuce.core.KqueueProvider- Starting without optional kqueue library
+ 2018/10/20-19:47 [main] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.0
+ 2018/10/20-19:47 [main] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==>  Preparing: select * from prescription where id = ? 
+ 2018/10/20-19:47 [main] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==> Parameters: 16(Integer)
+ 2018/10/20-19:47 [main] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- <==      Total: 1
+ 2018/10/20-19:47 [Thread-3] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Closing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:46:59 CST 2018]; root of context hierarchy
+ 2018/10/20-19:47 [Thread-3] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService
+ 2018/10/20-19:47 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} closed
+ 2018/10/20-19:47 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Starting SpringbootRedisApplicationTests on cec-PC with PID 36296 (started by cec in D:\eclipsework\springboot-redis)
+ 2018/10/20-19:47 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- No active profile set, falling back to default profiles: default
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:47:40 CST 2018]; root of context hierarchy
+ 2018/10/20-19:47 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2018/10/20-19:47 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8ddf9eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018/10/20-19:47 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure- Init DruidDataSource
+ 2018/10/20-19:47 [main] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:47:40 CST 2018]; root of context hierarchy
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/update]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.update(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/delete]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.delete(java.lang.Integer)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/list]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/index]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list()
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/save]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.save(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/info]}" onto public cn.com.wmc.entity.PrescriptionVO cn.com.wmc.controller.PrescriptionController.info(java.lang.Integer)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/ttt]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.adddd()
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/deletes]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.deletes(java.lang.Integer[])
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:47 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:47 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page template: index
+ 2018/10/20-19:47 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService
+ 2018/10/20-19:47 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Started SpringbootRedisApplicationTests in 13.68 seconds (JVM running for 16.217)
+ 2018/10/20-19:47 [main] INFO  io.lettuce.core.EpollProvider- Starting without optional epoll library
+ 2018/10/20-19:47 [main] INFO  io.lettuce.core.KqueueProvider- Starting without optional kqueue library
+ 2018/10/20-19:47 [main] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 1.0
+ 2018/10/20-19:47 [Thread-3] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Closing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:47:40 CST 2018]; root of context hierarchy
+ 2018/10/20-19:47 [Thread-3] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService
+ 2018/10/20-19:47 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} closed
+ 2018/10/20-19:54 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Starting SpringbootRedisApplicationTests on cec-PC with PID 37756 (started by cec in D:\eclipsework\springboot-redis)
+ 2018/10/20-19:54 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- No active profile set, falling back to default profiles: default
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:54:49 CST 2018]; root of context hierarchy
+ 2018/10/20-19:54 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2018/10/20-19:54 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2f109357] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018/10/20-19:54 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure- Init DruidDataSource
+ 2018/10/20-19:54 [main] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:54:49 CST 2018]; root of context hierarchy
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/update]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.update(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/delete]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.delete(java.lang.Integer)
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/list]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/index]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list()
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/save]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.save(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/info]}" onto public cn.com.wmc.entity.PrescriptionVO cn.com.wmc.controller.PrescriptionController.info(java.lang.Integer)
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/ttt]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.adddd()
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/deletes]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.deletes(java.lang.Integer[])
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:54 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-19:55 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page template: index
+ 2018/10/20-19:55 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService
+ 2018/10/20-19:55 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Started SpringbootRedisApplicationTests in 14.007 seconds (JVM running for 16.932)
+ 2018/10/20-19:55 [main] INFO  io.lettuce.core.EpollProvider- Starting without optional epoll library
+ 2018/10/20-19:55 [main] INFO  io.lettuce.core.KqueueProvider- Starting without optional kqueue library
+ 2018/10/20-19:55 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.cluster.topology.ClusterTopologyRefresh- Unable to connect to 127.0.0.1:6380
+ java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6380
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniApply(CompletableFuture.java:593)
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:577)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at io.lettuce.core.AbstractRedisClient.lambda$initializeChannelAsync$1(AbstractRedisClient.java:275)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:511)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:504)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:483)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:424)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:121)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:343)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:616)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6380
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	... 7 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 common frames omitted
+2018/10/20-19:55 [main] ERROR cn.com.wmc.utils.RedisCache- Redis get failed, fail over to db
+ org.springframework.data.redis.RedisSystemException: Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: CLUSTERDOWN The cluster is down
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:54)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:52)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:257)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.convertLettuceAccessException(LettuceStringCommands.java:718)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.get(LettuceStringCommands.java:63)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.get(DefaultedRedisConnection.java:210)
+	at org.springframework.data.redis.core.DefaultValueOperations$1.inRedis(DefaultValueOperations.java:52)
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:59)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:224)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:48)
+	at cn.com.wmc.utils.RedisCache.getObject(RedisCache.java:68)
+	at org.apache.ibatis.cache.decorators.LoggingCache.getObject(LoggingCache.java:57)
+	at org.apache.ibatis.cache.decorators.TransactionalCache.getObject(TransactionalCache.java:68)
+	at org.apache.ibatis.cache.TransactionalCacheManager.getObject(TransactionalCacheManager.java:35)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:101)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy68.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:82)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy70.selectById(Unknown Source)
+	at cn.com.wmc.service.impl.PrescriptionServiceImpl.selectById(PrescriptionServiceImpl.java:30)
+	at cn.com.wmc.SpringbootRedisApplicationTests.testselectId(SpringbootRedisApplicationTests.java:135)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: io.lettuce.core.RedisCommandExecutionException: CLUSTERDOWN The cluster is down
+	at io.lettuce.core.protocol.AsyncCommand.completeResult(AsyncCommand.java:118)
+	at io.lettuce.core.protocol.AsyncCommand.complete(AsyncCommand.java:109)
+	at io.lettuce.core.protocol.CommandWrapper.complete(CommandWrapper.java:57)
+	at io.lettuce.core.cluster.ClusterCommand.complete(ClusterCommand.java:63)
+	at io.lettuce.core.protocol.CommandHandler.complete(CommandHandler.java:598)
+	at io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:556)
+	at io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:508)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018/10/20-19:55 [main] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.0
+ 2018/10/20-19:55 [main] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==>  Preparing: select * from prescription where id = ? 
+ 2018/10/20-19:55 [main] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==> Parameters: 16(Integer)
+ 2018/10/20-19:55 [main] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- <==      Total: 1
+ 2018/10/20-19:55 [main] ERROR cn.com.wmc.utils.RedisCache- Redis put failed
+ org.springframework.data.redis.RedisSystemException: Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: CLUSTERDOWN The cluster is down
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:54)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:52)
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:257)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.convertLettuceAccessException(LettuceStringCommands.java:718)
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.setEx(LettuceStringCommands.java:227)
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.setEx(DefaultedRedisConnection.java:252)
+	at org.springframework.data.redis.core.DefaultValueOperations$4.potentiallyUsePsetEx(DefaultValueOperations.java:230)
+	at org.springframework.data.redis.core.DefaultValueOperations$4.doInRedis(DefaultValueOperations.java:223)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:224)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:184)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:95)
+	at org.springframework.data.redis.core.DefaultValueOperations.set(DefaultValueOperations.java:218)
+	at cn.com.wmc.utils.RedisCache.putObject(RedisCache.java:48)
+	at org.apache.ibatis.cache.decorators.LoggingCache.putObject(LoggingCache.java:51)
+	at org.apache.ibatis.cache.decorators.TransactionalCache.flushPendingEntries(TransactionalCache.java:122)
+	at org.apache.ibatis.cache.decorators.TransactionalCache.commit(TransactionalCache.java:105)
+	at org.apache.ibatis.cache.TransactionalCacheManager.commit(TransactionalCacheManager.java:44)
+	at org.apache.ibatis.executor.CachingExecutor.commit(CachingExecutor.java:120)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.commit(DefaultSqlSession.java:224)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:437)
+	at com.sun.proxy.$Proxy68.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:82)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy70.selectById(Unknown Source)
+	at cn.com.wmc.service.impl.PrescriptionServiceImpl.selectById(PrescriptionServiceImpl.java:30)
+	at cn.com.wmc.SpringbootRedisApplicationTests.testselectId(SpringbootRedisApplicationTests.java:135)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: io.lettuce.core.RedisCommandExecutionException: CLUSTERDOWN The cluster is down
+	at io.lettuce.core.protocol.AsyncCommand.completeResult(AsyncCommand.java:118)
+	at io.lettuce.core.protocol.AsyncCommand.complete(AsyncCommand.java:109)
+	at io.lettuce.core.protocol.CommandWrapper.complete(CommandWrapper.java:57)
+	at io.lettuce.core.cluster.ClusterCommand.complete(ClusterCommand.java:63)
+	at io.lettuce.core.protocol.CommandHandler.complete(CommandHandler.java:598)
+	at io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:556)
+	at io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:508)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2018/10/20-19:55 [Thread-3] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Closing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 19:54:49 CST 2018]; root of context hierarchy
+ 2018/10/20-19:55 [Thread-3] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService
+ 2018/10/20-19:55 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} closed
+ 2018/10/20-20:32 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Starting SpringbootRedisApplicationTests on cec-PC with PID 37332 (started by cec in D:\eclipsework\springboot-redis)
+ 2018/10/20-20:32 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- No active profile set, falling back to default profiles: default
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 20:32:22 CST 2018]; root of context hierarchy
+ 2018/10/20-20:32 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2018/10/20-20:32 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8ddf9eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018/10/20-20:32 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure- Init DruidDataSource
+ 2018/10/20-20:32 [main] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 20:32:22 CST 2018]; root of context hierarchy
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/update]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.update(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/delete]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.delete(java.lang.Integer)
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/list]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest)
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/index]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list()
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/save]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.save(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/info]}" onto public cn.com.wmc.entity.PrescriptionVO cn.com.wmc.controller.PrescriptionController.info(java.lang.Integer)
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/ttt]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.adddd()
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/deletes]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.deletes(java.lang.Integer[])
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-20:32 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-20:32 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page template: index
+ 2018/10/20-20:32 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService
+ 2018/10/20-20:32 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Started SpringbootRedisApplicationTests in 15.683 seconds (JVM running for 18.518)
+ 2018/10/20-20:32 [main] INFO  io.lettuce.core.EpollProvider- Starting without optional epoll library
+ 2018/10/20-20:32 [main] INFO  io.lettuce.core.KqueueProvider- Starting without optional kqueue library
+ 2018/10/20-20:32 [main] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 0.0
+ 2018/10/20-20:32 [main] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==>  Preparing: select * from prescription where id = ? 
+ 2018/10/20-20:32 [main] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- ==> Parameters: 16(Integer)
+ 2018/10/20-20:32 [main] DEBUG cn.com.wmc.dao.PrescriptionDao.selectById- <==      Total: 1
+ 2018/10/20-20:32 [Thread-3] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Closing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 20:32:22 CST 2018]; root of context hierarchy
+ 2018/10/20-20:32 [Thread-3] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService
+ 2018/10/20-20:32 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} closed
+ 2018/10/20-20:34 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Starting SpringbootRedisApplicationTests on cec-PC with PID 32300 (started by cec in D:\eclipsework\springboot-redis)
+ 2018/10/20-20:34 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- No active profile set, falling back to default profiles: default
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 20:34:45 CST 2018]; root of context hierarchy
+ 2018/10/20-20:34 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2018/10/20-20:34 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$df85cf04] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018/10/20-20:34 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure- Init DruidDataSource
+ 2018/10/20-20:34 [main] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} inited
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 20:34:45 CST 2018]; root of context hierarchy
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/update]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.update(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/delete]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.delete(java.lang.Integer)
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/list]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest)
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/index]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.list()
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/save]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.save(cn.com.wmc.entity.PrescriptionVO)
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/info]}" onto public cn.com.wmc.entity.PrescriptionVO cn.com.wmc.controller.PrescriptionController.info(java.lang.Integer)
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/ttt]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.adddd()
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/prescriptionController/deletes]}" onto public java.lang.String cn.com.wmc.controller.PrescriptionController.deletes(java.lang.Integer[])
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-20:34 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018/10/20-20:34 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping- Adding welcome page template: index
+ 2018/10/20-20:34 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService
+ 2018/10/20-20:35 [main] INFO  cn.com.wmc.SpringbootRedisApplicationTests- Started SpringbootRedisApplicationTests in 16.231 seconds (JVM running for 19.044)
+ 2018/10/20-20:35 [main] INFO  io.lettuce.core.EpollProvider- Starting without optional epoll library
+ 2018/10/20-20:35 [main] INFO  io.lettuce.core.KqueueProvider- Starting without optional kqueue library
+ 2018/10/20-20:35 [main] DEBUG cn.com.wmc.dao.PrescriptionDao- Cache Hit Ratio [cn.com.wmc.dao.PrescriptionDao]: 1.0
+ 2018/10/20-20:35 [Thread-3] INFO  org.springframework.web.context.support.GenericWebApplicationContext- Closing org.springframework.web.context.support.GenericWebApplicationContext@2a693f59: startup date [Sat Oct 20 20:34:45 CST 2018]; root of context hierarchy
+ 2018/10/20-20:35 [Thread-3] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService
+ 2018/10/20-20:35 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource- {dataSource-1} closed
  

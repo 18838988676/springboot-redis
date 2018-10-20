@@ -76,7 +76,7 @@ public class PrescriptionController {
     /**
      * 信息
      */
-    //http://localhost:8088/prescriptionController/info?id=6
+    //http://localhost:8088/prescriptionController/info?id=13
     @RequestMapping("/info")
     public PrescriptionVO info(Integer id){
 			PrescriptionVO prescription = prescriptionServiceImpl.selectById(id);

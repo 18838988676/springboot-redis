@@ -7,7 +7,11 @@
 
 
 
-
+2:使用了redis集群：
+ 运行项目首先打开集群：1：服务里打开jqredis6380    6381  6382  三个节点；
+ 					2：进入：C:\aredis\redisjiqun  打开cmd
+ 					3：深入：redis-trib.rb create --replicas 0 127.0.0.1:6380 127.0.0.1:6381 127.0.0.1:6382
+ 					付：C:\aredis\redisjiqun 的全部文件
 
 
 
